@@ -9,4 +9,4 @@ spring:
   profiles: LOCAL
   data:
     mongodb:
-      db: location
+      database: location

@@ -20,17 +20,17 @@ public class MainController {
     @Autowired
     LocationService service;
 
-    @RequestMapping(path="/addLocation/{latitude}/{longitude}", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(path="/addLocation/{latitude}/{longitude}", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
-    void addLocation(@PathVariable String latitude, @PathVariable String longitude){
+    void addLocation(@PathVariable double latitude, @PathVariable double longitude){
 
-        service.addLocation();
+        service.addLocation(latitude, longitude);
     }
 
     @RequestMapping(path="/test", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     void addLocation(){
-
+        service.test();
         S_LOG.info("TEST ENDPOINT");
     }
 

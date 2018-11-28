@@ -14,7 +14,11 @@ public class LocationService {
     RepositoryMongo mongo;
 
 
-    public void addLocation(){
+    public void addLocation(double latitude, double longitude){
+        mongo.addLocation(latitude, longitude);
+    }
 
+    public void test(){
+        mongo.addLocation(37.8667, -122.5);
     }
 }
