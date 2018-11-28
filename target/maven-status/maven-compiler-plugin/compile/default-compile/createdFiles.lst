@@ -1,1 +1,5 @@
+com/LocationTracker/LocationApplication.class
+com/LocationTracker/domain/LocationData.class
+com/LocationTracker/service/LocationService.class
 com/LocationTracker/controller/MainController.class
+com/LocationTracker/repository/RepositoryMongo.class

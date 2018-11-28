@@ -1,1 +1,5 @@
 /home/nick/IdeaProjects/LocationTracker/src/main/java/com/LocationTracker/controller/MainController.java
+/home/nick/IdeaProjects/LocationTracker/src/main/java/com/LocationTracker/LocationApplication.java
+/home/nick/IdeaProjects/LocationTracker/src/main/java/com/LocationTracker/service/LocationService.java
+/home/nick/IdeaProjects/LocationTracker/src/main/java/com/LocationTracker/domain/LocationData.java
+/home/nick/IdeaProjects/LocationTracker/src/main/java/com/LocationTracker/repository/RepositoryMongo.java
